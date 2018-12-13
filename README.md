@@ -113,6 +113,5 @@ Set aside time to prepare for the presentation!  Be prepared to talk about your 
 * **[Heroku](http://www.heroku.com)** _(for hosting your app)_
 * **[Writing Good User Stories](http://www.mariaemerson.com/user-stories/)** _(for a few user story tips)_
 * **[Presenting Information Architecture](http://webstyleguide.com/wsg3/3-information-architecture/4-presenting-information.html)** _(for more insight into wireframing)_
-* **[Public APIs](https://github.com/toddmotto/public-apis)**
 
 
