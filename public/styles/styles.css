@@ -1,0 +1,105 @@
+/* {
+    font-family: Arial, Helvetica, sans-serif;
+  } */
+  
+  body{
+    /* padding: 0 1%; */
+    
+  }
+  .here{
+    background-image: url("kisspng-frozen-yogurt-ice-cream-parfait-milk-yoghurt-yogurt-5ae015bb0b6067.8607665015246350670466.png");
+
+  }
+.main{
+  color: brown;
+  text-align: center;
+  
+}
+
+.secend{
+  background-image: url("kisspng-frozen-yogurt-ice-cream-parfait-milk-yoghurt-yogurt-5ae015bb0b6067.8607665015246350670466.png");
+  color: burlywood;
+  text-shadow: 2px 2px 4px #4d004d;
+
+}
+.four{
+  background-color: rgb(241, 240,245);
+}
+
+.sec{
+  text-align: center;
+  width: 200px;
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+}
+
+.yogurt{
+  background-color: dodgerblue;
+  color: green;
+  font-weight: bold;
+  width:150px;
+  height: 30px;
+}
+.show{
+  color: burlywood;
+  text-shadow: 2px 2px 4px #4d004d;
+}
+
+.pageOrder{
+   /* margin: auto;
+  width: 60%;
+  padding: 10px; */
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.three{
+ position: relative;
+left: 450px;
+}
+
+.img{
+  position: relative;
+  width: 300px;
+  bottom: 600px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 150;
+  width: 100%;
+  background-color: rgb(104, 188,87);
+  color: white;
+  text-align: center;
+}
+
+.first{
+  position: relative;
+  top: 20px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.write{
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  text-shadow: 2px 2px rgb(39, 133, 193);
+  color:#4d0066;
+}
+
+.explain{
+  position: relative;
+  left: 550px;
+  width: 200px;
+}
+
+

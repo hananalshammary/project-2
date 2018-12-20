@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css' href='/static/styles/styles.css'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="four"> 
+    <div class="sec">
+        <div class="three">
+     <form action="/orders" method="POST">
+        {{#yogurts}}
+        <h1> {{yogurts.name}}</h1> 
+       <!-- <h1>price <option value="{{id}}">{{yogurts.price}}</option></h1> -->
+     
+       <img src="{{img}}" alt=""  width="200" height="200">
+        {{/yogurts}}
+
+
+        <br>
+        <label for="quentity">
+            quentity <input type="number" id="quentity" name="quentity">
+          </label><br>
+          <label for="price">
+           total <input type="number" id="price" name="price"  disabled value="{{yogurts.price}}">
+          </label><br>
+          <label for="phone">
+           phone <input type="text" id="phone" name="phone" value="{{yogurts.phone}}">
+           </label><br>
+           <label for="flavour">
+            flavour <input type="number" id="flavor" min="1" max="4" name="flavour_id" value="{{yogurts.flavour_id}}">
+            </label><br>
+            <label for="flavour">
+                price <input type="number" id="price" name="price" value="{{yogurts.price}}">
+                </label><br>
+        <button type="submit">Create order</button>
+    </form>
+    <br>
+   <button><a href="/">go home</a></button> 
+   </div>
+   <div>
+       <img class="img" src="/static/styles/Screen Shot 1440-04-12 at 6.59.22 PM.png">
+   </div>
+
+   
+</div>
+</body>
+</html>
