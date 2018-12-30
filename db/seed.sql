@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS frozenyogurt_db;
-CREATE DATABASE frozenyogurt_db;
-\c frozenyogurt_db;
+DROP DATABASE IF EXISTS frozenyogurtt_db;
+CREATE DATABASE frozenyogurtt_db;
+\c frozenyogurtt_db;
 
 -- add create tables here
 
@@ -27,11 +27,12 @@ CREATE TABLE flavour(
 -- create order
 INSERT INTO flavour(name ,img , price)
 VALUES
-('chocolate','https://www.ocregister.com/wp-content/uploads/migration/ktf/ktf8vt-ktf8ukpinkberrychocolate.jpg?w=810' , 10),
-('vanilla','http://misskarens.com/wp-content/uploads/2013/06/ps-DoubleVanilla741.png',  12),
-('Raspberry','http://dorothylynas.com/wordpress/wp-content/uploads/2013/09/yogurt.jpg',13),
-('pistachio','https://www.tcby.com/files/products/grid/4dcd16a304c3f9a7.png',14),
-('strawberry','http://www.cliparthut.com/clip-arts/47/black-hills-sweets-rapid-city-chocolates-south-dakota-clipart-V70jjh.png',15);
+('chocolate','https://vignette.wikia.nocookie.net/icecream/images/d/df/Chocolate.png/revision/latest?cb=20110916143219' , 10),
+('vanilla','https://vignette.wikia.nocookie.net/icecream/images/d/d5/Vanilla.png/revision/latest?cb=20110917005433',  12),
+('Raspberry','https://5.imimg.com/data5/IL/KB/GLADMIN-36214393/strawberry-ice-cream-250x250.png',13),
+('pistachio','http://lamp2.sdu.dk/~johpe15/wordpress3/wp-content/uploads/2016/05/PistachioAlmond_Bowl.png',14),
+('strawberry','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE0t-nM-BI16Nh0SGnMnem55AxcqRujWVy-2r4AmbJ8MdT55ZxhQ',15),
+('Lemon','http://misskarens.com/wp-content/uploads/2018/02/ps-GenuineTart741-420x420.png',11);
 
 -- create order
 INSERT INTO orders(quantity , total ,  phone ,   flavour_id )
@@ -40,5 +41,6 @@ VALUES
 (2, 2 * 12,'0503456789' ,2),
 (3, 3 * 13,'0504449824' ,3),
 (4, 4 * 14,'0507779824' ,4),
-(5, 5 * 15,'0507779833' ,5);
+(5, 5 * 15,'0507779833' ,5),
+(7, 5 * 11,'0508889833' ,6);
 

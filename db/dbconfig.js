@@ -4,7 +4,7 @@ var pgInstance = pgPromise();
 var config = {
   host: 'localhost',
   port: 5432,
-  database: 'frozenyogurt_db',
+  database: 'frozenyogurtt_db',
   user: 'hnanalshmry'
 }
 

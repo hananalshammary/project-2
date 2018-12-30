@@ -5,8 +5,8 @@ var yogurt = require('../models/yogurt');
 var order  = require('../models/order');
 
 router.get('/', yogurt.getAll, renderIndex);
-
 router.get('/:id', yogurt.find, renderShow);
+
 
 
 function renderIndex(req, res){
@@ -26,16 +26,10 @@ function renderShow(req, res) {
   res.render('./yogurts/show', mustacheVariables);
 }
 
-//why house
-function renderNew(req, res) {
-  var mustacheVariables = {
-    orders: res.locals.orders
-  }
-  res.render('./yogurts/new', mustacheVariables);
-}
 
 
 function redirectShow(req, res) {
+  console.log(req.body);
   res.redirect(`/yogurts/${res.locals.yogurtId}`);
 }
 

@@ -7,7 +7,7 @@
     
   }
   .here{
-    background-image: url("kisspng-frozen-yogurt-ice-cream-parfait-milk-yoghurt-yogurt-5ae015bb0b6067.8607665015246350670466.png");
+    background-image: url("https://png2.kisspng.com/sh/39f902b55e2b91600a8de879006fcfff/L0KzQYm3VMI2N6hvfZH0aYP2gLBuTfZzd6tqhp9Eb3f4gsW0ifNmNZR3fdN2LYDkgrfoigQudZpxg59Eb3frhcP7Tglwb6Z3jJ8AYXWzQYbpgsBjPmE7T5CDNkC6Roe8UME2OmU7S6c5NkezRIe9TwBvbz==/kisspng-frozen-yogurt-ice-cream-parfait-milk-yoghurt-yogurt-5ae015bb0b6067.8607665015246350670466.png");
 
   }
 .main{
@@ -17,7 +17,7 @@
 }
 
 .secend{
-  background-image: url("kisspng-frozen-yogurt-ice-cream-parfait-milk-yoghurt-yogurt-5ae015bb0b6067.8607665015246350670466.png");
+  background-image: url("file:///Users/hnanalshmry/code/wdi/project-2/public/styles/kisspng-frozen-yogurt-ice-cream-parfait-milk-yoghurt-yogurt-5ae015bb0b6067.8607665015246350670466.png");
   color: burlywood;
   text-shadow: 2px 2px 4px #4d004d;
 
@@ -38,7 +38,9 @@
   background-color: dodgerblue;
   color: green;
   font-weight: bold;
-  width:150px;
+  position: relative;
+  top: 320px;
+  width:120px;
   height: 30px;
 }
 .show{
@@ -68,12 +70,31 @@ left: 450px;
   bottom: 600px;
 }
 
+.img1{
+  position: relative;
+  width: 300px;
+  bottom: 600px;
+  left: 900px;
+}
+
+.img2{
+  position: relative;
+  width: 300px;
+  bottom: 600px;
+  left: 900px;
+}
+.img3{
+  position: relative;
+  width: 300px;
+  bottom: 600px;
+  left: 900px;
+}
 .footer {
   position: fixed;
   left: 0;
   bottom: 150;
   width: 100%;
-  background-color: rgb(104, 188,87);
+  background-color: #9575cd;
   color: white;
   text-align: center;
 }
@@ -84,7 +105,7 @@ left: 450px;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: green;
   color: white;
 }
 
@@ -92,7 +113,7 @@ left: 450px;
   text-align: center;
   font-weight: bold;
   font-size: 17px;
-  text-shadow: 2px 2px rgb(39, 133, 193);
+  /* text-shadow: 2px 2px rgb(39, 53, 61); */
   color:#4d0066;
 }
 
@@ -102,4 +123,17 @@ left: 450px;
   width: 200px;
 }
 
+div.card-image{
+    text-align: center;
+   }
+   
+   div.card-image>img{
+     height: 250px;
+     width: 100%;
+     object-fit: contain;
+   }
+
+   .brand-logo{
+     right: 550px;
+   }
 
